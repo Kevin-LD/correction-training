@@ -1,0 +1,23 @@
+[
+  {
+    "kind": "evaluation",
+    "path": "evaluation-assets/VIRTUAL_imagenet256_labeled.npz",
+    "url": "https://openaipublic.blob.core.windows.net/diffusion/jul-2021/ref_batches/imagenet/256/VIRTUAL_imagenet256_labeled.npz",
+    "mirror_repo": "microsoft/distilled_decoding",
+    "mirror_revision": "7392028d7820e88590f6a75cd52fffca6b4b938f",
+    "expected_sha256": "b32732719497e42660a9affb4a966068cba0855ac449b82015e34ec376d20758"
+  },
+  {
+    "kind": "evaluation",
+    "path": "evaluation-assets/classify_image_graph_def.pb",
+    "url": "https://openaipublic.blob.core.windows.net/diffusion/jul-2021/ref_batches/classify_image_graph_def.pb",
+    "mirror_repo": "molinamarc/syntheva",
+    "mirror_revision": "e98076431c59e6875c29bde7f19cc0c78b01b526",
+    "expected_sha256": "009d6814d1bc560d4e7b236e170e9b2d5ca6f4b57bd8037f6db05776204415c6"
+  },
+  {
+    "kind": "evaluation",
+    "path": "evaluation-assets/adm_evaluator.py",
+    "url": "https://raw.githubusercontent.com/openai/guided-diffusion/22e0df8183507e13a7813f8d38d51b072ca1e67c/evaluations/evaluator.py"
+  }
+]

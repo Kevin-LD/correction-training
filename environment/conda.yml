@@ -1,0 +1,7 @@
+name: correction
+channels:
+  - http://nexus.sii.shaipower.online/repository/anaconda/pkgs/main
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip

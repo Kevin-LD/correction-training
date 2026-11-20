@@ -29,3 +29,6 @@ logs/
 evaluation-assets/
 evaluation-reference/
 Miniconda3-*.sh
+envs/
+.cache/
+data/

@@ -1,0 +1,57 @@
+[
+  {
+    "kind": "sit",
+    "path": "checkpoints/pretrained/sit/pretrained_models/SiT-XL-2-256x256.safetensors",
+    "expected_sha256": "b48cca85a5bf402c0c5039984959dc99ab4d27d59145a4c4cd3b49e1cc0ab660",
+    "repo_id": "sairights/sit-xl-2-256x256-sde-cfg",
+    "filename": "pretrained_models/SiT-XL-2-256x256.safetensors",
+    "revision": "5a15dccbe5710eb5bc9a0b0f71e6fb3deb31e24e",
+    "sha256": "b48cca85a5bf402c0c5039984959dc99ab4d27d59145a4c4cd3b49e1cc0ab660",
+    "size": 2700473968
+  },
+  {
+    "kind": "vae",
+    "path": ".cache/huggingface/hub/models--stabilityai--sd-vae-ft-ema/snapshots/f04b2c4b98319346dad8c65879f680b1997b204a/config.json",
+    "repo_id": "stabilityai/sd-vae-ft-ema",
+    "revision": "f04b2c4b98319346dad8c65879f680b1997b204a",
+    "filename": "config.json",
+    "sha256": "92d3dfb746fca211a2c9e019e285f8597412211728dce3c5bcf4eda0f2d62e7e",
+    "size": 547
+  },
+  {
+    "kind": "vae",
+    "path": ".cache/huggingface/hub/models--stabilityai--sd-vae-ft-ema/snapshots/f04b2c4b98319346dad8c65879f680b1997b204a/diffusion_pytorch_model.bin",
+    "repo_id": "stabilityai/sd-vae-ft-ema",
+    "revision": "f04b2c4b98319346dad8c65879f680b1997b204a",
+    "filename": "diffusion_pytorch_model.bin",
+    "sha256": "7c98ebcd7ca5cb69d47b2ae287feba0695689fbf2c8fead2fab05fd3e0c28303",
+    "size": 334707217
+  },
+  {
+    "kind": "evaluation",
+    "path": "evaluation-assets/VIRTUAL_imagenet256_labeled.npz",
+    "url": "https://openaipublic.blob.core.windows.net/diffusion/jul-2021/ref_batches/imagenet/256/VIRTUAL_imagenet256_labeled.npz",
+    "mirror_repo": "microsoft/distilled_decoding",
+    "mirror_revision": "7392028d7820e88590f6a75cd52fffca6b4b938f",
+    "expected_sha256": "b32732719497e42660a9affb4a966068cba0855ac449b82015e34ec376d20758",
+    "sha256": "b32732719497e42660a9affb4a966068cba0855ac449b82015e34ec376d20758",
+    "size": 2037122530
+  },
+  {
+    "kind": "evaluation",
+    "path": "evaluation-assets/classify_image_graph_def.pb",
+    "url": "https://openaipublic.blob.core.windows.net/diffusion/jul-2021/ref_batches/classify_image_graph_def.pb",
+    "mirror_repo": "molinamarc/syntheva",
+    "mirror_revision": "e98076431c59e6875c29bde7f19cc0c78b01b526",
+    "expected_sha256": "009d6814d1bc560d4e7b236e170e9b2d5ca6f4b57bd8037f6db05776204415c6",
+    "sha256": "009d6814d1bc560d4e7b236e170e9b2d5ca6f4b57bd8037f6db05776204415c6",
+    "size": 95673916
+  },
+  {
+    "kind": "evaluation",
+    "path": "evaluation-assets/adm_evaluator.py",
+    "url": "https://raw.githubusercontent.com/openai/guided-diffusion/22e0df8183507e13a7813f8d38d51b072ca1e67c/evaluations/evaluator.py",
+    "sha256": "c8f10ab1406c45d105d7f5b347e5be06c118bd2ddef1c54789c263ebae7f1ca7",
+    "size": 25057
+  }
+]
